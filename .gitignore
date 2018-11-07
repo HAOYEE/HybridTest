@@ -1,0 +1,6 @@
+node_modules/
+build/
+HybridTestTests/
+HybridTestUITests/
+Podfile.lock
+Pods/

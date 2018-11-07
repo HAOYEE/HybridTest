@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HybridTest' do
+    pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+    pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+    pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+    pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+    pod 'React', :path => '../node_modules/react-native', :subspecs =>[
+    'Core',
+    'ART',
+    'CxxBridge',
+    'RCTActionSheet',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTAnimation’,
+    'RCTNetwork',
+    'RCTPushNotification',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+    'RCTLinkingIOS',
+    'DevSupport'
+    ]
+
+  target 'HybridTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HybridTestUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
