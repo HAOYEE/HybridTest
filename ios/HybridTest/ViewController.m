@@ -8,25 +8,32 @@
 
 #import "ViewController.h"
 
+#import "SetupViewCtrl.h"
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
-@interface ViewController ()
+#import "AppDelegate.h"
+
+@interface ViewController () 
 
 @end
 
 @implementation ViewController
+
+
 - (IBAction)btnClicked:(id)sender {
+    SetupViewCtrl *setupVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"SetupViewCtrl"];
+    
     NSURL *jsCodeLocation;
-    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
+    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios&dev=true"];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                         moduleName:@"HybridTest"
-                                                 initialProperties:nil
-                                                     launchOptions:nil];
-    UIViewController *navVC = [[UIViewController alloc]init];
-    navVC.view.backgroundColor = [UIColor yellowColor];
-    navVC.view = rootView;
-    [self.navigationController pushViewController:navVC animated:YES];
+                                                 initialProperties:NSDictionary.new
+                                                     launchOptions:((AppDelegate *)([UIApplication sharedApplication].delegate)).launchOptions];
+    
+    setupVC.view = rootView;
+    
+    [self.navigationController pushViewController:setupVC animated:YES];
 }
 
 - (void)viewDidLoad {
@@ -35,9 +42,29 @@
     self.view.backgroundColor = UIColor.whiteColor;
     
     self.title = @"开始展示";
-    
-    
 }
 
 
 @end
+
+
+/*
+
+export default class RNTestForIOS extends Component{
+    render() {
+        return (
+                // <View>
+                // <Text style={{flex: 1, backgroundColor: 'powderblue'}}>This is setup page !</Text>
+                // </View>
+                <Button
+                onPress={onBtnPress}
+                title="点击（回调)"
+                color="#841584"
+                >
+                </Button>
+                )
+    }
+}
+
+*/
+

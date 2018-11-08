@@ -18,6 +18,16 @@
 		AB09597D21903C6C00B20D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB09597C21903C6C00B20D74 /* main.m */; };
 		AB09598721903C6D00B20D74 /* HybridTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB09598621903C6D00B20D74 /* HybridTestTests.m */; };
 		AB09599221903C6D00B20D74 /* HybridTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB09599121903C6D00B20D74 /* HybridTestUITests.m */; };
+		AB8DAD322194035E0026FB59 /* SetupViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8DAD312194035E0026FB59 /* SetupViewCtrl.m */; };
+		ABC5B1AA2192C011003C910C /* Alice.vkd in Resources */ = {isa = PBXBuildFile; fileRef = ABC5B19D2192C011003C910C /* Alice.vkd */; };
+		ABC5B1AB2192C011003C910C /* Bob.vkd in Resources */ = {isa = PBXBuildFile; fileRef = ABC5B19E2192C011003C910C /* Bob.vkd */; };
+		ABC5B1AC2192C011003C910C /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = ABC5B19F2192C011003C910C /* file.txt */; };
+		ABC5B1AD2192C011003C910C /* Jerry.vkd in Resources */ = {isa = PBXBuildFile; fileRef = ABC5B1A02192C011003C910C /* Jerry.vkd */; };
+		ABC5B1AE2192C011003C910C /* test.cn.pkm in Resources */ = {isa = PBXBuildFile; fileRef = ABC5B1A12192C011003C910C /* test.cn.pkm */; };
+		ABC5B1AF2192C011003C910C /* Tom.vkd in Resources */ = {isa = PBXBuildFile; fileRef = ABC5B1A22192C011003C910C /* Tom.vkd */; };
+		ABC5B1B02192C011003C910C /* libcpkapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5B1A82192C011003C910C /* libcpkapi.a */; };
+		ABC5B1B12192C011003C910C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC5B1A92192C011003C910C /* libcrypto.a */; };
+		ABC5B1B42192D349003C910C /* BCTCPKKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC5B1B32192D349003C910C /* BCTCPKKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +71,21 @@
 		AB09598D21903C6D00B20D74 /* HybridTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybridTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB09599121903C6D00B20D74 /* HybridTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridTestUITests.m; sourceTree = "<group>"; };
 		AB09599321903C6D00B20D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8DAD302194035E0026FB59 /* SetupViewCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetupViewCtrl.h; sourceTree = "<group>"; };
+		AB8DAD312194035E0026FB59 /* SetupViewCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetupViewCtrl.m; sourceTree = "<group>"; };
+		ABC5B19D2192C011003C910C /* Alice.vkd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alice.vkd; sourceTree = "<group>"; };
+		ABC5B19E2192C011003C910C /* Bob.vkd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bob.vkd; sourceTree = "<group>"; };
+		ABC5B19F2192C011003C910C /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
+		ABC5B1A02192C011003C910C /* Jerry.vkd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jerry.vkd; sourceTree = "<group>"; };
+		ABC5B1A12192C011003C910C /* test.cn.pkm */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.cn.pkm; sourceTree = "<group>"; };
+		ABC5B1A22192C011003C910C /* Tom.vkd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tom.vkd; sourceTree = "<group>"; };
+		ABC5B1A42192C011003C910C /* cpkdev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpkdev.h; sourceTree = "<group>"; };
+		ABC5B1A52192C011003C910C /* cpksoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpksoft.h; sourceTree = "<group>"; };
+		ABC5B1A62192C011003C910C /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
+		ABC5B1A82192C011003C910C /* libcpkapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcpkapi.a; sourceTree = "<group>"; };
+		ABC5B1A92192C011003C910C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		ABC5B1B22192D349003C910C /* BCTCPKKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCTCPKKit.h; sourceTree = "<group>"; };
+		ABC5B1B32192D349003C910C /* BCTCPKKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCTCPKKit.m; sourceTree = "<group>"; };
 		D82E184A6D73F38B1AB593B7 /* Pods-HybridTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HybridTest/Pods-HybridTest.release.xcconfig"; sourceTree = "<group>"; };
 		FA5A5E858377091FF3353164 /* Pods-HybridTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HybridTestTests/Pods-HybridTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +96,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BAE03F15F9C094FFEEC35DC /* libPods-HybridTest.a in Frameworks */,
+				ABC5B1B02192C011003C910C /* libcpkapi.a in Frameworks */,
+				ABC5B1B12192C011003C910C /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,7 @@
 		AB09596121903C6200B20D74 = {
 			isa = PBXGroup;
 			children = (
+				ABC5B19B2192C011003C910C /* libs */,
 				AB09596C21903C6200B20D74 /* HybridTest */,
 				AB09598521903C6D00B20D74 /* HybridTestTests */,
 				AB09599021903C6D00B20D74 /* HybridTestUITests */,
@@ -150,6 +178,8 @@
 				AB09597821903C6C00B20D74 /* LaunchScreen.storyboard */,
 				AB09597B21903C6C00B20D74 /* Info.plist */,
 				AB09597C21903C6C00B20D74 /* main.m */,
+				AB8DAD302194035E0026FB59 /* SetupViewCtrl.h */,
+				AB8DAD312194035E0026FB59 /* SetupViewCtrl.m */,
 			);
 			path = HybridTest;
 			sourceTree = "<group>";
@@ -170,6 +200,50 @@
 				AB09599321903C6D00B20D74 /* Info.plist */,
 			);
 			path = HybridTestUITests;
+			sourceTree = "<group>";
+		};
+		ABC5B19B2192C011003C910C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5B19C2192C011003C910C /* data */,
+				ABC5B1A32192C011003C910C /* include */,
+				ABC5B1A72192C011003C910C /* lib */,
+				ABC5B1B22192D349003C910C /* BCTCPKKit.h */,
+				ABC5B1B32192D349003C910C /* BCTCPKKit.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		ABC5B19C2192C011003C910C /* data */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5B19D2192C011003C910C /* Alice.vkd */,
+				ABC5B19E2192C011003C910C /* Bob.vkd */,
+				ABC5B19F2192C011003C910C /* file.txt */,
+				ABC5B1A02192C011003C910C /* Jerry.vkd */,
+				ABC5B1A12192C011003C910C /* test.cn.pkm */,
+				ABC5B1A22192C011003C910C /* Tom.vkd */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		ABC5B1A32192C011003C910C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5B1A42192C011003C910C /* cpkdev.h */,
+				ABC5B1A52192C011003C910C /* cpksoft.h */,
+				ABC5B1A62192C011003C910C /* errcode.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		ABC5B1A72192C011003C910C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ABC5B1A82192C011003C910C /* libcpkapi.a */,
+				ABC5B1A92192C011003C910C /* libcrypto.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +352,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC5B1AF2192C011003C910C /* Tom.vkd in Resources */,
+				ABC5B1AE2192C011003C910C /* test.cn.pkm in Resources */,
 				AB09597A21903C6C00B20D74 /* LaunchScreen.storyboard in Resources */,
 				AB09597721903C6C00B20D74 /* Assets.xcassets in Resources */,
+				ABC5B1AB2192C011003C910C /* Bob.vkd in Resources */,
+				ABC5B1AA2192C011003C910C /* Alice.vkd in Resources */,
+				ABC5B1AC2192C011003C910C /* file.txt in Resources */,
 				AB09597521903C6200B20D74 /* Main.storyboard in Resources */,
+				ABC5B1AD2192C011003C910C /* Jerry.vkd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +455,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB09597221903C6200B20D74 /* ViewController.m in Sources */,
+				AB8DAD322194035E0026FB59 /* SetupViewCtrl.m in Sources */,
+				ABC5B1B42192D349003C910C /* BCTCPKKit.m in Sources */,
 				AB09597D21903C6C00B20D74 /* main.m in Sources */,
 				AB09596F21903C6200B20D74 /* AppDelegate.m in Sources */,
 			);
@@ -548,11 +630,17 @@
 			baseConfigurationReference = 8B958D67E680E4DFA3918F99 /* Pods-HybridTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HybridTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BoChTec.HybridTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -565,11 +653,17 @@
 			baseConfigurationReference = D82E184A6D73F38B1AB593B7 /* Pods-HybridTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HybridTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BoChTec.HybridTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
