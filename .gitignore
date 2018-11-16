@@ -5,3 +5,5 @@ HybridTestUITests/
 Podfile.lock
 Pods/
 xcuserdata/
+package-lock.json
+app.json
