@@ -7,3 +7,5 @@ Pods/
 xcuserdata/
 package-lock.json
 app.json
+yarn-error.log
+yarn.lock
